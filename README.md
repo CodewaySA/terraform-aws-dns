@@ -11,8 +11,8 @@ This repo contains a Terraform module that manages an AWS Route53 Zone and its s
 
 ```hcl
 module dns {
-  source  = "MauroSoli/terraform-aws-dns"
-  version = "3.19"
+  source  = "CodewaySA/dns/aws"
+  version = "1.0.1"
 
   records = [
    #[ "name",     "type",  TTL, [ "value" ]]
